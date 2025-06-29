@@ -87,9 +87,9 @@ router.post('/login',async(req,res)=>{
         );
 
         res.cookie("userToken",token,{
-            httpOnly : true,
+            httpOnly : false,  // initially true for local deployment
             maxAge : 30 * 24 * 60 * 60 * 100,
-            sameSite : "None",
+            sameSite : "none",
             secure : process.env.NODE_ENV === "production"
         });
 
