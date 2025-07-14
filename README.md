@@ -30,7 +30,7 @@
 **Description:**  
 The landing page of MediTrack. It provides a clean and welcoming introduction with navigation options to access members, visits, checkups, and reports.
 
-![Homepage](./screenshots/homepage.png)
+![Homepage](homepage.png)
 
 ---
 
@@ -38,7 +38,7 @@ The landing page of MediTrack. It provides a clean and welcoming introduction wi
 **Description:**  
 Displays all the added member profiles. Each card summarizes the member and allows access to detailed records.
 
-![Member List](./screenshots/memberList.png)
+![Member List](memberList.png)
 
 ---
 
